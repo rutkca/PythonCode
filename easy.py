@@ -128,6 +128,6 @@ def main(_):
     with tf.device(dev):
         if FLAGS.mode == 'train':
             train(FLAGS.train_dir, FLAGS.val_dir, FLAGS.mode)
-if __name__ == '__main__':
-    tf.logging.set_verbosity(tf.logging.INFO) 
-    tf.app.run() 
+# if __name__ == '__main__':
+#   tf.logging.set_verbosity(tf.logging.INFO) 
+#   tf.app.run() 
