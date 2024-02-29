@@ -25,7 +25,6 @@ def train(train_dir=None, val_dir=None, mode='train'):
     train_feeder = utils.DataIterator(data_dir=train_dir) 
     print('get image: ', train_feeder.size)
 
-    print('loading validation data, please wait---------------------')
     val_feeder = utils.DataIterator(data_dir=val_dir)
     print('get image: ', val_feeder.size)
 
